@@ -48,7 +48,7 @@ console.log(__line) // => 4
 
   Because you can do weird, stupid, clever, wacky things such as:
   
-    - [better-assert](https://github.com/visionmedia/better-assert)
+  - [better-assert](https://github.com/visionmedia/better-assert)
 
 ## License 
 
