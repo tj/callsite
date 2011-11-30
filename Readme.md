@@ -45,10 +45,6 @@ console.log('bar')
 console.log(__lineno) // => 4
 ```
 
-## Performance
-
-  Though it's certainly a hack, `__stack` seems to operate around 30k ops/s.
-
 ## Why?
 
   Because you can do weird, stupid, clever, wacky things.
