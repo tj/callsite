@@ -14,9 +14,11 @@ function assert(expr) {
     , src = parse(line);
 
   var fmt = '  \033[91massert: \033[31m%s\033[0m'
-    + '\033[90m in %s:%d\033[0m';
+    + '\n  \033[90min: %s:%d'
+    + '\n  value: %j\033[0m'
+    + '\n';
 
-  console.error(fmt, src, file, lineno);
+  console.error(fmt, src, file, lineno, expr);
 }
 
 function parse(str) {
@@ -28,4 +30,9 @@ assert('wahoo');
 var user = { authenticated: false };
 assert(user.authenticated);
 
+user.authenticated = true;
+assert(user.authenticated);
+
+user.authenticated = 0;
+assert(user.authenticated);
 
