@@ -46,7 +46,9 @@ console.log(__line) // => 4
 
 ## Why?
 
-  Because you can do weird, stupid, clever, wacky things.
+  Because you can do weird, stupid, clever, wacky things such as:
+  
+    - [better-assert](https://github.com/visionmedia/better-assert)
 
 ## License 
 
