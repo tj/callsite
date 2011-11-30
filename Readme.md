@@ -1,4 +1,3 @@
-
 # callstack
 
   Access to v8's "raw" `CallSite`s. This module provides the following "magical" global getters:
@@ -42,7 +41,7 @@ function baz() {
 require('callsite');
 console.log('foo')
 console.log('bar')
-console.log(__lineno) // => 4
+console.log(__line) // => 4
 ```
 
 ## Why?
