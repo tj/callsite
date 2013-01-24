@@ -1,12 +1,12 @@
 
-require('../');
+var stack = require('..');
 
 var fs = require('fs');
 
 function assert(expr) {
   if (expr) return;
 
-  var call = __stack[1]
+  var call = stack()[1]
     , file = call.getFileName()
     , lineno = call.getLineNumber()
     , src = fs.readFileSync(file, 'utf8')
