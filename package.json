@@ -1,6 +1,6 @@
 {
     "name": "callsite"
-  , "version": "0.0.1"
+  , "version": "1.0.0"
   , "description": "access to v8's CallSites"
   , "keywords": ["stack", "trace", "line"]
   , "author": "TJ Holowaychuk <tj@vision-media.ca>"
