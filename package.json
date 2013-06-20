@@ -7,5 +7,6 @@
   , "dependencies": {}
   , "devDependencies": { "mocha": "*", "should": "*" }
   , "main": "index"
+  , "repository": { "type": "git", "url": "https://github.com/visionmedia/callsite.git" }
   , "engines": { "node": "*" }
 }
