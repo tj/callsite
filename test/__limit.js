@@ -37,6 +37,5 @@ describe('__limit', function(){
       stack().length.should.lessThan(Error.stackTraceLimit);
     }
   });
-
 });
 
